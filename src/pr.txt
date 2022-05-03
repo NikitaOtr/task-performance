@@ -7,7 +7,7 @@ index.html:
 contacts.js: 
     1. `const items = contacts.getElementsByClassName("contact");`
     В самом начале скрипта получаю динамическую HTML коллекцию контактов 
-    (делаю это один раз, чтобы потом не делать это в цикле)
+    (делаю это один раз, чтобы потом не делать это каждый раз)
 
     2.
     `contacts.addEventListener("scroll", (e) => {
